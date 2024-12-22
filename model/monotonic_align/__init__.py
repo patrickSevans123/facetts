@@ -2,6 +2,8 @@
 
 import numpy as np
 import torch
+import pyximport
+pyximport.install()
 from model.monotonic_align.core import maximum_path_c
 
 

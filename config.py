@@ -86,6 +86,7 @@ def config():
 
     log_dir = os.getenv("CHECKPOINTS", "./logs")
     log_every_n_steps = int(os.getenv("log_every_n_steps", 1000))
+    local_checkpoint_dir = os.getenv("local_checkpoint_dir", "./logs/ckpts")
 
     num_gpus = int(os.getenv("num_gpus", 1))
     per_gpu_batchsize = int(batch_size / num_gpus)

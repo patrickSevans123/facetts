@@ -12,9 +12,9 @@ def config():
 
     # Dataset Configs
     dataset = os.getenv("dataset", "lrs3")
-    lrs3_train = os.getenv("lrs3_train", "datalist/lrs3_train_long.list")
-    lrs3_val = os.getenv("lrs3_val", "datalist/lrs3_val_long.list")
-    lrs3_test = os.getenv("lrs3_test", "datalist/lrs3_test_long.list")
+    lrs3_train = os.getenv("lrs3_train", "datalist/pbl_train_long.list")
+    lrs3_val = os.getenv("lrs3_val", "datalist/pbl_val_long.list")
+    lrs3_test = os.getenv("lrs3_test", "datalist/pbl_test_long.list")
     lrs3_path = os.getenv("lrs3_path", "data/lrs3")
     cmudict_path = os.getenv("cmudict_path", "utils/cmu_dictionary")
 
